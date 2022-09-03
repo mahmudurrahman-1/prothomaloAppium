@@ -12,6 +12,21 @@
 > **_When:_** Sujon click on top right font   
 > **_Then:_** Sujon selects first and click ok
 
+**Scenario: 02** Sujon login to application
+
+> **_Given:_** Sujon open the prothomalo app  
+> **_And:_** Sujon clicks on my app    
+> **_And:_** Sujon select login to enter     
+> **_When:_** Sujon enters email and password  
+> **_Then:_** Sujon successfully login
+
+**Scenario: 03** Sujon search News by google mic
+
+> **_Given:_** Sujon open the app  
+> **_And:_** Sujon click on the search icon down     
+> **_When:_** ujon give input from excel into the input field  
+> **_Then:_** Sujon Scroll down and select on news
+
 ### Additional functionalities, that may be covered:
 
 1. The more, the better. Only if it makes sense. Use your imagination and write some additional tests if you feel you
